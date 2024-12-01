@@ -15,8 +15,9 @@
     - requests: 发送请求，获取页面数据
     - lxml：解析页面，使用xpath从页面中提取目标数据
     - pymongo: 把提取到的代理IP数据存入MongoDB数据库，以及从数据库中读取代理IP供爬虫使用
-    - Flask: 提供Web API，以一种简单方便的方式获取符合条件的代理IP。
-- 可以通过pip命令安装：pip install requests lxml pymongo Flask
+    - flask: 提供Web API，以一种简单方便的方式获取符合条件的代理IP。
+- 可以通过pip命令安装：pip install requests lxml pymongo flask
+
 
 ## 项目结构
 项目分为五大核心模块：
